@@ -1,4 +1,3 @@
-const clone = require('clone');
 const cuid = require('cuid');
 
 const requestLog = async (req, res, next) => {
