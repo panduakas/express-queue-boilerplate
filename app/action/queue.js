@@ -6,7 +6,7 @@ const queue = new Queue('Queue Test');
 
 const queueActions = () => queue.process(async (job) => {
   const message = get(job, 'data');
-  console.log('message from queue: ', message);
+  console.log('message queue: ', message);
 });
 
 module.exports = {
